@@ -6,16 +6,16 @@ function Navbar() {
     <>
       <ul>
         <li>
-          {/* <Link to="/genres">Genres</Link> */}
+          <Link to="/genres">Genres</Link>
         </li>
         <li>
-          {/* <Link to="/about">About</Link> */}
+          <Link to="/about">About</Link>
         </li>
         <li>
-          {/* <Link to="/contact">Contact</Link> */}
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          {/* <Link to="/shipping">Shipping</Link> */}
+          <Link to="/shipping">Shipping</Link>
         </li>
       </ul>
     </>
