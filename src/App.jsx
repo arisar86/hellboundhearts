@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <section className="FrontImage">
         <img src="src/assets/illustrations/Home_01.jpg"></img>
       </section>
