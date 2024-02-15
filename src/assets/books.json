@@ -3,6 +3,7 @@
     "title": "Cabal",
     "author": "Clive Barker",
     "year": "1987",
+    "genre": "Horror",
     "condition": "very good",
     "price": 8,
     "image_url": "src/assets/book_images/Cabal_CliveBarker.jpg"
@@ -11,6 +12,7 @@
     "title": "Swan Song",
     "author": "Robert R. McGammon",
     "year": "1988",
+    "genre": "Horror",
     "condition": "good",
     "price": 12,
     "image_url": "src/assets/book_images/SwanSong_RobertRMcGammon.jpg"
@@ -19,6 +21,7 @@
     "title": "The Blood Red Game",
     "author": "Michael Moorcock",
     "year": "1977",
+    "genre": "Science Fiction",
     "condition": "used",
     "price": 6,
     "image_url": "src/assets/book_images/TheBloodRedGame_Moorcock.jpg"
