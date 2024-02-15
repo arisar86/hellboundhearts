@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/pages/About.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1708016168490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708016176931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-import React from 'react';\r\n+import About from 'react';\r\n \r\n-function Genres(){\r\n+function About(){\r\n     return(\r\n         <h1>Genres</h1>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1708016268590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+\r\n+\r\n+function About(){\r\n+    return(\r\n+        <h1>About</h1>\r\n+    );\r\n+}\r\n+\r\n+export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708017445352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,8 @@\n \r\n-\r\n function About(){\r\n     return(\r\n-        <h1>About</h1>\r\n+        <h1>Hell </h1>\r\n     );\r\n }\r\n \r\n-export default About;\n-import About from 'react';\r\n-\r\n-function About(){\r\n-    return(\r\n-        <h1>Genres</h1>\r\n-    );\r\n-}\r\n-\r\n\\ No newline at end of file\n-export default Genres;\n+export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708017451820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+\r\n+function About(){\r\n+    return(\r\n+        <h1>HellBound hearts </h1>\r\n+    );\r\n+}\r\n+\r\n+export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708017458659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,8 @@\n \r\n function About(){\r\n     return(\r\n-        <h1>HellBound hearts </h1>\r\n+        <h1>HellBound hearts Paperbacks</h1>\r\n     );\r\n }\r\n \r\n-export default About;\n-\r\n-function About(){\r\n-    return(\r\n-        <h1>Hell </h1>\r\n-    );\r\n-}\r\n-\r\n export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708019405280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \r\n function About(){\r\n     return(\r\n-        <h1>HellBound hearts Paperbacks</h1>\r\n+        <h1>HellBound hearts Paperbacks!!!!!!!!!</h1>\r\n     );\r\n }\r\n \r\n export default About;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708019422228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \r\n function About(){\r\n     return(\r\n-        <h1>HellBound hearts Paperbacks!!!!!!!!!</h1>\r\n+        <h1>HellBound hearts Paperbacks</h1>\r\n     );\r\n }\r\n \r\n export default About;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1708016168490,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\n\r\nfunction Genres(){\r\n    return(\r\n        <h1>Genres</h1>\r\n    );\r\n}\r\n\r\nexport default Genres;"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/pages/Shipping.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1708016209255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708016217881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n-import About from 'react';\r\n+import Shipping from 'react';\r\n \r\n-function About(){\r\n+function Shipping(){\r\n     return(\r\n         <h1>About</h1>\r\n     );\r\n }\r\n"
+                },
+                {
+                    "date": 1708016371843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-import Shipping from 'react';\r\n \r\n+\r\n function Shipping(){\r\n     return(\r\n-        <h1>About</h1>\r\n+        <h1>Shipping</h1>\r\n     );\r\n }\r\n\\ No newline at end of file\n \r\n-export default About;\n+export default Shipping;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1708016209255,
+            "name": "Commit-0",
+            "content": "import About from 'react';\r\n\r\nfunction About(){\r\n    return(\r\n        <h1>About</h1>\r\n    );\r\n}\r\n\r\nexport default About;"
+        }
+    ]
+}
