@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/components/ShippingDetails.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1708091071937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1708091078292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,25 +1,7 @@\n import React from 'react';\r\n-import styled from 'styled-components';\r\n-import PropTypes from 'prop-types';\r\n \r\n-// #region constants\r\n \r\n-// #endregion\r\n-\r\n-// #region styled-components\r\n-\r\n-// #endregion\r\n-\r\n-// #region functions\r\n-\r\n-// #endregion\r\n-\r\n-// #region component\r\n-const propTypes = {};\r\n-\r\n-const defaultProps = {};\r\n-\r\n /**\r\n  * \r\n  */\r\n const ShippingDetails = () => {\r\n"
+                },
+                {
+                    "date": 1708091083985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,8 @@\n import React from 'react';\r\n \r\n-\r\n-/**\r\n- * \r\n- */\r\n const ShippingDetails = () => {\r\n     return <div></div>;\r\n }\r\n \r\n-ShippingDetails.propTypes = propTypes;\r\n-ShippingDetails.defaultProps = defaultProps;\r\n-// #endregion\r\n \r\n export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091103737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import React from 'react';\r\n+\r\n+const ShippingDetails = () => {\r\n+    return <div>\r\n+        <p>\r\n+                <h2>Shipping within the E.U.</h2>\r\n+                Free Shipping with a purchase of 60€ and more<br />\r\n+                Standard - 6,49€ up to 2kg<br />\r\n+                Tracked - 14,49€ up to 2kg<br />\r\n+                - 16,49€ up to 5kg<br />\r\n+            </p>\r\n+    </div>;\r\n+}\r\n+\r\n+\r\n+export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091114172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react';\r\n \r\n const ShippingDetails = () => {\r\n-    return <div>\r\n+    return <>\r\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - 6,49€ up to 2kg<br />\r\n@@ -12,13 +12,5 @@\n     </div>;\r\n }\r\n \r\n \r\n-export default ShippingDetails;\n-import React from 'react';\r\n-\r\n-const ShippingDetails = () => {\r\n-    return <div></div>;\r\n-}\r\n-\r\n-\r\n export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091120476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n import React from 'react';\r\n \r\n const ShippingDetails = () => {\r\n-    return <>\r\n+    return (<>\r\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - 6,49€ up to 2kg<br />\r\n                 Tracked - 14,49€ up to 2kg<br />\r\n                 - 16,49€ up to 5kg<br />\r\n             </p>\r\n-    </div>;\r\n+    </>;\r\n }\r\n \r\n \r\n export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091191096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import React from 'react';\r\n+\r\n+const ShippingDetails = () => {\r\n+    return (<>\r\n+        <p>\r\n+                <h2>Shipping within the E.U.</h2>\r\n+                Free Shipping with a purchase of 60€ and more<br />\r\n+                Standard - {standard}€ up to 2kg<br />\r\n+                Tracked - 14,49€ up to 2kg<br />\r\n+                - 16,49€ up to 5kg<br />\r\n+            </p>\r\n+    </>)\r\n+}\r\n+\r\n+\r\n+export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091199677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,29 +4,13 @@\n     return (<>\r\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n-                Standard - {standard}€ up to 2kg<br />\r\n-                Tracked - 14,49€ up to 2kg<br />\r\n+                Standard - {standardPrice}€ up to 2kg<br />\r\n+                Tracked - € up to 2kg<br />\r\n                 - 16,49€ up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n \r\n \r\n-export default ShippingDetails;\n-import React from 'react';\r\n-\r\n-const ShippingDetails = () => {\r\n-    return (<>\r\n-        <p>\r\n-                <h2>Shipping within the E.U.</h2>\r\n-                Free Shipping with a purchase of 60€ and more<br />\r\n-                Standard - 6,49€ up to 2kg<br />\r\n-                Tracked - 14,49€ up to 2kg<br />\r\n-                - 16,49€ up to 5kg<br />\r\n-            </p>\r\n-    </>;\r\n-}\r\n-\r\n-\r\n export default ShippingDetails;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1708091207896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n-                Tracked - € up to 2kg<br />\r\n+                Tracked - {trackedPrice}€ up to 2kg<br />\r\n                 - 16,49€ up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n"
+                },
+                {
+                    "date": 1708091229077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n-                Tracked - {trackedPrice}€ up to 2kg<br />\r\n+                Tracked - {trackedPriceLessThan}€ up to 2kg<br />\r\n                 - 16,49€ up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n"
+                },
+                {
+                    "date": 1708091244881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n         <p>\r\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n-                Tracked - {trackedPriceLessThan}€ up to 2kg<br />\r\n-                - 16,49€ up to 5kg<br />\r\n+                Tracked - {trackedPriceLessThan2}€ up to 2kg<br />\r\n+                - € up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1708091253131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n                 <h2>Shipping within the E.U.</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n                 Tracked - {trackedPriceLessThan2}€ up to 2kg<br />\r\n-                - € up to 5kg<br />\r\n+                - {trackedPriceLessThan2}€ up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1708091288930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,13 @@\n \r\n const ShippingDetails = () => {\r\n     return (<>\r\n         <p>\r\n-                <h2>Shipping within the E.U.</h2>\r\n+                <h2></h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n                 Tracked - {trackedPriceLessThan2}€ up to 2kg<br />\r\n-                - {trackedPriceLessThan2}€ up to 5kg<br />\r\n+                - {trackedPriceLessThan5}€ up to 5kg<br />\r\n             </p>\r\n     </>)\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1708091296635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \r\n const ShippingDetails = () => {\r\n     return (<>\r\n         <p>\r\n-                <h2></h2>\r\n+                <h2>{destination}</h2>\r\n                 Free Shipping with a purchase of 60€ and more<br />\r\n                 Standard - {standardPrice}€ up to 2kg<br />\r\n                 Tracked - {trackedPriceLessThan2}€ up to 2kg<br />\r\n                 - {trackedPriceLessThan5}€ up to 5kg<br />\r\n"
+                }
+            ],
+            "date": 1708091071937,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport styled from 'styled-components';\r\nimport PropTypes from 'prop-types';\r\n\r\n// #region constants\r\n\r\n// #endregion\r\n\r\n// #region styled-components\r\n\r\n// #endregion\r\n\r\n// #region functions\r\n\r\n// #endregion\r\n\r\n// #region component\r\nconst propTypes = {};\r\n\r\nconst defaultProps = {};\r\n\r\n/**\r\n * \r\n */\r\nconst ShippingDetails = () => {\r\n    return <div></div>;\r\n}\r\n\r\nShippingDetails.propTypes = propTypes;\r\nShippingDetails.defaultProps = defaultProps;\r\n// #endregion\r\n\r\nexport default ShippingDetails;"
+        }
+    ]
+}
