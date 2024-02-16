@@ -11,11 +11,10 @@ function SearchBar({ setSearchResults }) {
         const results = books.filter((book) => {
           return (
             value &&
-            book &&
-            book.title &&
-            book.author &&
-            book.year &&
-            book.genre
+            (book.title.toLowerCase().includes(value.toLowerCase()) ||
+              book.author.toLowerCase().includes(value.toLowerCase()) ||
+              book.year.toString().includes(value) ||
+              book.genre.toLowerCase().includes(value.toLowerCase()))
           );
         });
         setSearchResults(results);

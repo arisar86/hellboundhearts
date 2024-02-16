@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import SearchBar from "./SearchBar";
-import SearchResultsList from "./SearchResultsList";
 
 function Header() {
   const [searchResults, setSearchResults] = useState([]);
@@ -10,9 +9,7 @@ function Header() {
       <img className="Logo" src="src/assets/illustrations/Logo_01.jpg" />
       <div>
         <SearchBar setSearchResults={setSearchResults} />
-        {searchResults && searchResults.length > 0 && (
-          <SearchResultsList searchResults={searchResults} />
-        )}
+        {searchResults && searchResults.length > 0}
       </div>
     </div>
   );
