@@ -1,5 +1,6 @@
 [
   {
+    "id": "0001",
     "title": "Cabal",
     "author": "Clive Barker",
     "year": "1987",
@@ -9,6 +10,7 @@
     "image_url": "src/assets/book_images/Cabal_CliveBarker.jpg"
   },
   {
+    "id": "0002",
     "title": "Swan Song",
     "author": "Robert R. McGammon",
     "year": "1988",
@@ -18,6 +20,7 @@
     "image_url": "src/assets/book_images/SwanSong_RobertRMcGammon.jpg"
   },
   {
+    "id": "0003",
     "title": "The Blood Red Game",
     "author": "Michael Moorcock",
     "year": "1977",

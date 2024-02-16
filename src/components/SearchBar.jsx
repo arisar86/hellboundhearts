@@ -32,7 +32,7 @@ function SearchBar({ setSearchResults }) {
   return (
     <div className="input-wrapper">
       <input
-        placeholder="search"
+        placeholder="Search..."
         value={searchInput}
         onChange={(e) => handleChange(e.target.value)}
       />
