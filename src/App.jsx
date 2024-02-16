@@ -6,17 +6,19 @@ import Genres from "./pages/Genres.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Shipping from "./pages/Shipping.jsx";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
       <Header />
       <Navbar />
-      <section className="FrontImage">
+      {/* <section className="FrontImage">
         <img src="src/assets/illustrations/Home_01.jpg"></img>
-      </section>
+      </section> */}
 
       <Routes>
+      <Route path="/" element={<HomePage />} />
         <Route path="/genres" element={<Genres />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
