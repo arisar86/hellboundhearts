@@ -1,6 +1,6 @@
 function Contact(){
     return(
-        <h1>Contact</h1>
+        <div>Send an email to shop@hellboundheartspaperbacks.de or message me on Instagram</div>
     );
 }
 
